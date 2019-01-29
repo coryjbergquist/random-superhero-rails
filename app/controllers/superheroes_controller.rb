@@ -3,7 +3,7 @@ require 'pry'
 class SuperheroesController < ApplicationController
 
   def index
-    @hero = Superhero.create(name: "ThisGuy", description: "He farts")
+    @all = Superhero.all
     render 'index'
   end
 

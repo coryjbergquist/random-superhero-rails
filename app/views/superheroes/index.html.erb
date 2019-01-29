@@ -3,3 +3,17 @@
 <p>
   all of this will go away when I connect this to the React front-end
 </p>
+
+<p>
+  Here are all the heroes
+</p>
+
+<p>
+  <% @all.each do |hero| %>
+  Name:
+  <%= hero.name %><br>
+  Description:
+  <%= hero.description %>
+  <% end %>
+
+</p>
