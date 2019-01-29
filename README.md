@@ -8,6 +8,8 @@ This is a work in progress. It will be the rails back-end for random-superhero b
 #### Ruby on Rails version
 5.2.2
 
+-------------------------------------------------------------------------
+
 * System dependencies
 
 * Configuration
