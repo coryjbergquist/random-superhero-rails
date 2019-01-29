@@ -1,3 +1,5 @@
+require 'pry'
+
 class SuperheroesController < ApplicationController
 
   def index
@@ -9,10 +11,13 @@ class SuperheroesController < ApplicationController
   end
 
   def create
+    @superhero = Superhero.create(superhero_params)
+    redirect_to @superhero
   end
 
   def show
-
+    binding.pry
+    @superhero = Superhero.find(params[:id])
   end
 
   def edit
@@ -23,7 +28,7 @@ class SuperheroesController < ApplicationController
 
 
   private
-    def superheroes_params
+    def superhero_params
       params.require(:superhero).permit(:name, :description)
     end
 
