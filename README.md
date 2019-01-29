@@ -1,11 +1,12 @@
-# README
+# Rails back-end of random-superhero
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a work in progress. It will be the rails back-end for random-superhero built with React.
 
-Things you may want to cover:
 
-* Ruby version
+#### Ruby version
+2.6.0
+#### Ruby on Rails version
+5.2.2
 
 * System dependencies
 
