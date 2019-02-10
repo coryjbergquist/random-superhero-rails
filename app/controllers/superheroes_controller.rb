@@ -4,6 +4,7 @@ class SuperheroesController < ApplicationController
 
   def index
     @all = Superhero.all
+    
     render 'index'
   end
 
