@@ -9,11 +9,14 @@
 </p>
 
 <p>
-  <% @all.each do |hero| %>
-  Name:
-  <%= hero.name %><br>
-  Description:
-  <%= hero.description %>
-  <% end %>
-
+  <ul>
+    <% @all.each do |hero| %>
+      <li>
+        Name:
+        <%= hero.name %><br>
+        Description:
+        <%= hero.description %><br>
+      </li>
+    <% end %>
+  </ul>
 </p>
